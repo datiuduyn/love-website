@@ -206,10 +206,13 @@
     <section id="ordered">
       <h2>Quà em đã chọn:3</h2>
       <ul id="order-list"></ul>
-
-        <form id="order-form" action="https://formspree.io/f/xzzzdpqo" method="POST">
-          <!-- Form fields will be dynamically generated here -->
-        </form>
+     <form action="https://formspree.io/f/xzzzdpqo" method="POST">
+     <label for="email">Your email:</label>
+     <input type="email" name="_replyto" id="email" required>
+     <label for="message">Your message:</label>
+     <textarea name="message" id="message" required></textarea>
+    <button type="submit">Send</button>
+    </form>
       <button id="submit-btn">Xác nhận</button>
     </section>
     
